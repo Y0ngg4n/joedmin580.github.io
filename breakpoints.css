@@ -1,13 +1,28 @@
-/* Mobile first, baby! */
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
+/* Portrait */
+ 
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: portrait) {
+    [style="sloupce"] {display: grid; grid-template-columns:  1fr;text-align: center; padding: 10px 5px 10px 5px; margin: 10px 5px 10px 5px;}
 }
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
+ 
+/* Landscape */
+ 
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: landscape) {
+    [style="sloupce"] {display: grid; grid-template-columns:  1fr 1fr;text-align: center; padding: 10px 5px 10px 5px; margin: 10px 5px 10px 5px;}
 }
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
+ 
