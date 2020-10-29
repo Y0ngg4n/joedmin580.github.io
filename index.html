@@ -6,99 +6,82 @@
         <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.10">
         <meta lang="eng">
         <link rel="icon" href="images/ikona.gif">
-        <!--<link rel="stylesheet" href="breakpoints.css"> -->
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body class="pozadi_okraje_text">
-        <style>
-            .pozadi_okraje_text {border-color: black; border-style: double; border-width: 8px; text-align: center; background-image: url("images/wallpaper.jpg"); font-family:fantasy; font-weight:500; border-radius: 10px;}
-            .popisek {padding: 0px 0px 4px 0px; margin: 0px 0px 4px 0px;}
-            .cara {background-color: black; padding: 3px 0px 0px 0px; margin: 0px 0px 30px 0px;}
-            
-            [style="sloupce"] {display: grid; grid-template-columns:  1fr 1fr;text-align: center; padding: 10px 5px 10px 5px; margin: 10px 5px 10px 5px;}
-
-            h1 {text-align: center; font-size: 40px;padding:20px 0px 20px 0px;margin: 0px 0px 0px 0px;background-color: #3bc4a2; color: white;}
-            h4 {border-style: solid; border-radius: 10px; padding:5px 5px 5px 5px; margin: 0px 20px 12px 20px; border-width: 2px; background-color:#c4ede3}
-            p {border-width: 0px 10px 0px 10px; border-style:solid; border-color: transparent; padding: 0px 5px 10px 5px; margin: 0px 5px 0px 5px;}
-            footer {text-align: center; font-size: 11px; padding:10px 0px 0px 0px; margin: 10px 0px 0px 0px;}
-        </style>
+    <body class="bg_bords_text">
         <h1>Welcome to my own page!</h1>
-        <div class="cara">   </div>
+        <div class="line">
+        </div>
         <main>
             <article>
-                <section>
-                    <div style="sloupce">
-                        <div>
-                            <h4>Why am I doing this?</h4>
-                            <p>Just for fun, I wanna share for now my amateurishs creations that I hope will become profesional in the future, test out 
-                                writing real page in HTML and CSS. I'm planning to add JS later on too. And I also wanna know how it is to have hosted page that can anyone acces.</p>
-                                
-                        </div>
-                        <div>
-                            <h4>For what am I gonna use this?</h4>
-                            <p>This page is primary for testing and for sharing my works that I wrote in <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a>.
-                                You can look at them in paragraph <b>My codes</b>.
+                <section class="container">
+                    <div>
+                        <h4>Why am I doing this?</h4>
+                        <p>Just for fun, I wanna share for now my amateurishs creations that I hope will become profesional in the future, test out 
+                            writing real page in HTML and CSS. I'm planning to add JS later on too. And I also wanna know how it is to have hosted page that can anyone acces.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>For what am I gonna use this?</h4>
+                        <p>This page is primary for testing and for sharing my works that I wrote in <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a>.
+                            You can look at them in paragraph <b>My codes</b>.
 <!--                        <br>Maybe just maybe I'm gonna upload some videos on my <a href="https://www.youtube.com/channel/UC4ngofzYzPlJs4CJsbOh3TQ?view_as=subscriber" target="_blank">
-                                youtube channel</a> where I'll be writing codes. --></p>
-                        </div>
+                            youtube channel</a> where I'll be writing codes. -->
+                        </p>
                     </div>
-                </section>
-                <section>
-                    <div style="sloupce">
-                        <div>
-                            <h4>Which languages do I know?</h4>
-                            <p>There are a lots of programming languages. I already know how to write codes in HTML with CSS and in Python. I'm planning to learn javascript
-                                (yes, I wanna punish my soul), C#, C++ and maybe Java too.</p>
-                        </div>
-                        <div>
-                            <h4>Links to my profiles</h4>
-                            <img src="images/GitHubLogo.svg" width="50" class="sloupce">
-                            <p class="popisek"><a href="https://github.com/Joedmin580" target="_blank">GitHub</a></p>
-                            <img src="images/StackOverflow.png" width="60" class="sloupce">
-                            <p class="popisek"><a href="https://stackoverflow.com/users/14466874/joedmin580" target="_blank">StackOverflow</a></p>
-                        </div>
+                    <div>
+                        <h4>Which languages do I know?</h4>
+                        <p>There are a lots of programming languages. I already know how to write codes in HTML with CSS and in Python. I'm planning to learn javascript
+                            (yes, I wanna punish my soul), C#, C++ and maybe Java too.
+                        </p>
                     </div>
-                </section>
-                <section>
-                    <div style="sloupce">
-                        <div>
-                            <h4>My codes</h4>
-                            <p>As I already said I can write in Python. I wrote the <a href="https://github.com/Joedmin580/Guessing_game" target="_blank">guessing game</a> and the
-                            <a href="https://github.com/Joedmin580/Calculator" target="_blank">calculator</a>. My new mini-project is the <a href="https://github.com/Joedmin580/Geometric_calculator" target="_blank">geometric calculator</a>
+                    <div>
+                        <h4>Links to my profiles</h4>
+                        <div id="grid">
+                            <div><img src="images/github.png" alt="GitHub logo" id="link_img"></div>
+                            <div><img src="images/StackOverflow.png" alt="StackOverflow logo" id="link_img"></div>
+                            <p id="link"><a href="https://github.com/Joedmin580" target="_blank">GitHub</a></p>
+                            <p id="link"><a href="https://stackoverflow.com/users/14466874/joedmin580" target="_blank">StackOverflow</a></p>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                    <div>
+                        <h4>My codes</h4>
+                        <p>As I already said I can write in Python. I wrote the <a href="https://github.com/Joedmin580/Guessing_game" target="_blank">guessing game</a> and the
+                        <a href="https://github.com/Joedmin580/Calculator" target="_blank">calculator</a>. My new mini-project is the <a href="https://github.com/Joedmin580/Geometric_calculator" target="_blank">geometric calculator</a>
                             which is able to calculate circuit, content, surface and volume of geometric bodies. I'll write something new later, all I need is the idea.<br>
                             For now is my <b>longest</b> code <i>geometric</i> calculator. It has about <b>250 lines</b> and it's able to calculate circuit, content, surface and volume of geometric bodies. It's sure
-                            that I'll add some more functions later on.</p>
-                        </div>
-                        <div>
-                            <h4>My other works</h4>
-                            <p>I love history, especially wars and tanks! My <b>favourite tank</b> is the Swedish Strv-103. <br>
-                                I made <b>2</b> presentaions on it, the <a href="https://drive.google.com/file/d/1--AkA5wil6Zslitcjc2c-s1ifipa41NF/view?usp=sharing" target="_blank">English one</a> and the 
-                                <a href="https://drive.google.com/file/d/1ezWVByjP0B2ctaGWsLUpiQWNJtOwBmo0/view?usp=sharing" target="_blank">Czech one</a>. <br>
-                                I made a lot of another works like <a href="https://drive.google.com/file/d/1KQy6ILFjYTOv5hpTcLqhOEiYccV2Lk0b/view?usp=sharing" target="_blank">this one</a> which is about the 
-                                Czechoslovakian army or <a href="https://drive.google.com/file/d/1vEwIHrAmb4Yom4VTD8Ay-BQEvpEkcgcw/view?usp=sharing" target="_blank">this one</a> which is about the 1st 
-                                tanks ever made, but <b>both are in Czech</b>. I also made a Czech presentaion about the <a href="https://drive.google.com/file/d/10_gF4NgREZ4PmX0piFbr68PwJ373UNwN/view?usp=sharing" target="_blank">D Day</a>
-                                which is one of the most important or <b>the most important mission</b> of the World War II which <b>led allies to win</b> the <b>whole war</b>.
-                                <br><img src="images/czechoslovakian.png" alt="Logo of the Czechoslovakian army" width="100"><br>
-                                <small>Logo of the Czechoslovakian army</small>
-                            </p>
-                        </div>
+                            that I'll add some more functions later on.
+                        </p>
                     </div>
-                </section>
-                <section>
-                    <div style="sloupce">
-                        <div>
-                            <h4>Do you wanna be programmer too?</h4>
-                            <p>For newbies in programming (like I'm) I'd recomend to watch some <b>tutorials</b> on youtube on specific language, for example <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ" target="_blank">this</a> channel has nice tutorials. 
+                    <div>
+                        <h4>My other works</h4>
+                        <p>I love history, especially wars and tanks! My <b>favourite tank</b> is the Swedish Strv-103. <br>
+                            I made <b>2</b> presentaions on it, the <a href="https://drive.google.com/file/d/1--AkA5wil6Zslitcjc2c-s1ifipa41NF/view?usp=sharing" target="_blank">English one</a> and the 
+                            <a href="https://drive.google.com/file/d/1ezWVByjP0B2ctaGWsLUpiQWNJtOwBmo0/view?usp=sharing" target="_blank">Czech one</a>. <br>
+                            I made a lot of another works like <a href="https://drive.google.com/file/d/1KQy6ILFjYTOv5hpTcLqhOEiYccV2Lk0b/view?usp=sharing" target="_blank">this one</a> which is about the 
+                            Czechoslovakian army or <a href="https://drive.google.com/file/d/1vEwIHrAmb4Yom4VTD8Ay-BQEvpEkcgcw/view?usp=sharing" target="_blank">this one</a> which is about the 1st 
+                            tanks ever made, but <b>both are in Czech</b>. I also made a Czech presentaion about the <a href="https://drive.google.com/file/d/10_gF4NgREZ4PmX0piFbr68PwJ373UNwN/view?usp=sharing" target="_blank">D Day</a>
+                            which is one of the most important or <b>the most important mission</b> of the World War II which <b>led allies to win</b> the <b>whole war</b>.
+                            <br><img src="images/czechoslovakian.png" alt="Logo of the Czechoslovakian army"><br>
+                            <p id="label">Logo of the Czechoslovakian army</p>
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Do you wanna be programmer too?</h4>
+                        <p>For newbies in programming (like I'm) I'd recomend to watch some <b>tutorials</b> on youtube on specific language, for example <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ" target="_blank">this</a> channel has nice tutorials. 
                             I also recomend to do some excersises. The <a href="https://www.w3schools.com/" target="_blank">w3chools</a> has nice excersises, tests and quizzes. You can also look on some cheat sheets but a lot of time you won't look at 
                             them cuz you will <b>simply google it</b>. If you mean programming <b>seriously</b> (like I do) then it'd be great to <b>read some books</b>. I'm planning to read <a href="https://drive.google.com/file/d/19HTxH-voa-yoHkj62e8jOMPgRmUIkLQO/view?usp=sharing" target="_blank">Think Like a Programmer</a>, 
                             <a href="https://drive.google.com/file/d/1wWJfqpx1Vk_-4zS6asyMoWCY9ge2M38n/view?usp=sharing"  target="_blank">No Starch Python</a> and the <a href="https://drive.google.com/file/d/1O-i_S0oihpsHfkoEi6m_jhkFa7SU3oUn/view?usp=sharing" target="_blank">Clean Code</a>.
-                            All of them are in the English.</p>
-                        </div>
-                        <div>
-                            <h4>Little andventure game</h4>
-                            <p>I had a task to do to school and I'd like to make a mini-project from it and make it a lot more bigger than they wanted from me, for now it's only in Czech but 
-                                if I'm not gonna be lazy I'll translate it to English too. <a href="https://joedmin580.github.io/pribehovka/" target="_blank">Here's the demo</a> of the Czech version.
-                            </p>
-                        </div>
+                            All of them are in the English.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Little andventure game</h4>
+                        <p>I had a task to do to school and I'd like to make a mini-project from it and make it a lot more bigger than they wanted from me, for now it's only in Czech but 
+                            if I'm not gonna be lazy I'll translate it to English too. <a href="https://joedmin580.github.io/pribehovka/" target="_blank">Here's the demo</a> of the Czech version.
+                        </p>
                     </div>
                 </section>
             </article>

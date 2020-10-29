@@ -1,0 +1,225 @@
+/* Mobiles */
+@media screen and (min-width: 320px){
+h1 {
+    text-align: center; 
+    font-size: 200% ;
+    width: auto;
+    height: auto;
+    padding:10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #3bc4a2; 
+    color: white;
+}
+h4{
+    width: 100%;
+    font-size: 100%;
+    border-style: solid;
+    display: inline;
+    border-radius: 5px; 
+    border-width: 2px; 
+    background-color:#c4ede3;
+    padding: 5px 5px 5px 5px;
+}
+.container{
+    display: inline;
+    padding: 10px 5px 10px 5px; 
+    margin: 10px 5px 10px 5px;
+}
+p { 
+    font-size: 100%;
+    border-width: 0px 10px 0px 10px; 
+    border-style:solid; 
+    border-color: transparent;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 20px 5px;
+}
+#link{
+    font-size: 100%;
+    padding: 0px 0px 10px 0px; 
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 15px 0px;
+}
+#link_img {
+    width: 35%;
+    padding: 5px 0px 0px 0px; 
+    margin: 5px 0px 10px 0px;
+}
+#grid {
+    display: grid;
+    width: 74%;
+    grid-area: auto;
+    align-items: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 50px 0px 50px;
+}
+#label {
+    font-size: 85%;
+    padding: 0px 0px 10px 0px; 
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 15px 0px;
+}
+footer {
+    width: 100%;
+    text-align: center; 
+    font-size: 70%; 
+    padding:0px 0px 0px 0px; 
+    margin: 0px 0px -15px 0px;
+}
+img {
+    width: 15%;
+    padding: 5px 0px 0px 0px; 
+    margin: 5px 0px 10px 0px;
+}
+img {
+    width: 15%;
+    padding: 5px 0px 0px 0px; 
+    margin: 5px 0px -10px 0px;
+}
+}
+/* Ţablets */
+@media screen and (min-width: 600px){
+h4{
+    width: 100%;
+    font-size: 100%;
+    border-style: solid;
+    display: inline;
+    border-radius: 5px; 
+    border-width: 2px; 
+    background-color:#c4ede3;
+    padding: 5px 5px 5px 5px;
+}
+.container{
+    display: grid; 
+    grid-template-columns:  1fr 1fr;
+    text-align: center; 
+    padding: 10px 5px 10px 5px; 
+    margin: 10px 5px 10px 5px;
+}
+p { 
+    font-size: 100%;
+    border-width: 0px 10px 0px 10px; 
+    padding: 5px 5px 20px 5px;
+    border-style:solid; 
+    border-color: transparent;
+}
+#link{
+    font-size: 100%;
+    padding: 0px 0px 10px 0px; 
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 15px 0px;
+}
+#link_img {
+    width: 35%;
+    padding: 5px 0px 0px 0px; 
+    margin: 5px 0px 10px 0px;
+}
+#grid {
+    display: grid;
+    width: 74%;
+    grid-area: auto;
+    align-items: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 50px 0px 50px;
+}
+#label {
+    font-size: 85%;
+    padding: 0px 0px 10px 0px; 
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 15px 0px;
+}
+footer {
+    width: 100%;
+    text-align: center; 
+    font-size: 70%; 
+    padding:0px 0px 0px 0px; 
+    margin: 0px 0px -15px 0px;
+}
+img {
+    width: 25%;
+    padding: 5px 0px 0px 0px; 
+    margin: 5px 0px -10px 0px;
+}
+}
+/* PCs*/
+@media screen and (min-width: 1000px){
+h4{
+    width: 100%;
+    font-size: 90%;
+    border-style: solid;
+    display: inline;
+    border-radius: 5px; 
+    border-width: 2px; 
+    background-color: #c4ede3;
+    padding: 5px 5px 5px 5px;
+}
+.container{
+    display: grid; 
+    grid-template-columns:  1fr 1fr;
+    text-align: center; 
+    padding: 10px 5px 10px 5px; 
+    margin: 10px 5px 10px 5px;
+}
+p { 
+    font-size: 100%;
+    border-width: 0px 10px 0px 10px;
+    padding: 5px 5px 20px 5px;
+    border-style:solid; 
+    border-color: transparent;
+}
+#link{
+    font-size: 100%;
+    padding: 0px 0px 10px 0px; 
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 15px 0px;
+}
+#link_img {
+    width: 30%;
+    padding: 5px 0px 0px 0px; 
+    margin: 5px 0px 10px 0px;
+}
+#label {
+    font-size: 85%;
+    padding: 0px 0px 10px 0px; 
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 15px 0px;
+}
+#grid {
+    grid-area: auto;
+    align-items: right;
+    display: grid;
+    width: 85%;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 50px 0px 50px;
+}
+footer {
+    width: 100%;
+    text-align: center; 
+    font-size: 70%; 
+    padding:0px 0px 0px 0px; 
+    margin: 0px 0px -15px 0px;
+}
+img {
+    width: 15%;
+    padding: 5px 0px 0px 0px; 
+    margin: 5px 0px -10px 0px;
+}
+}
+
+/* Fixed elements */
+.bg_bords_text {
+    border-color: black; 
+    border-style: double; 
+    border-width: 7px; 
+    text-align: center; 
+    background-image: url("images/wallpaper.jpg");
+    font-family:fantasy; 
+    font-weight:500; 
+    border-radius: 5px;
+}
+.line {
+    background-color: black;
+    padding: 3px 0px 0px 0px; 
+    margin: 0px 0px 10px 0px;
+}
