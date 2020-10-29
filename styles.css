@@ -48,7 +48,7 @@ p {
     display: grid;
     width: 80%;
     grid-area: auto;
-    align-items: right;
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px 50px 0px 50px;
@@ -113,7 +113,7 @@ p {
     display: grid;
     width: 70%;
     grid-area: auto;
-    align-items: right;
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px 50px 0px 50px;
@@ -171,8 +171,8 @@ p {
 }
 #link_img {
     width: 30%;
-    padding: 5px 0px 0px 0px; 
-    margin: 5px 0px 10px 0px;
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 10px 0px;
 }
 #label {
     font-size: 85%;
@@ -181,11 +181,9 @@ p {
     padding: 0px 0px 15px 0px;
 }
 #grid {
-    grid-area: auto;
-    align-items: right;
     display: grid;
     width: 85%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     padding: 20px 50px 0px 50px;
 }
 footer {
@@ -217,4 +215,8 @@ img {
     background-color: black;
     padding: 3px 0px 0px 0px; 
     margin: 0px 0px 10px 0px;
+}
+
+div{
+    align-items: center;
 }
