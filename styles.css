@@ -141,7 +141,7 @@ img {
 @media screen and (min-width: 1000px){
 h4{
     width: 100%;
-    font-size: 90%;
+    font-size: 100%;
     border-style: solid;
     display: inline;
     border-radius: 5px; 
