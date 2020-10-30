@@ -13,10 +13,9 @@ h1 {
 h4{
     width: 100%;
     font-size: 100%;
-    border-style: solid;
+    border: 2px solid;
     display: inline;
     border-radius: 5px; 
-    border-width: 2px; 
     background-color:#c4ede3;
     padding: 5px 5px 5px 5px;
 }
@@ -27,11 +26,9 @@ h4{
 }
 p { 
     font-size: 100%;
-    border-width: 0px 10px 0px 10px; 
-    border-style:solid; 
-    border-color: transparent;
-    margin: 10px 10px 10px 10px;
     padding: 5px 5px 20px 5px;
+    margin: 10px 10px 10px 10px;
+    border: 0px 10px 0px 10px solid transparent; 
 }
 #link{
     font-size: 100%;
@@ -81,10 +78,9 @@ img {
 h4{
     width: 100%;
     font-size: 100%;
-    border-style: solid;
+    border: 2px solid;
     display: inline;
     border-radius: 5px; 
-    border-width: 2px; 
     background-color:#c4ede3;
     padding: 5px 5px 5px 5px;
 }
@@ -97,10 +93,8 @@ h4{
 }
 p { 
     font-size: 100%;
-    border-width: 0px 10px 0px 10px; 
     padding: 5px 5px 20px 5px;
-    border-style:solid; 
-    border-color: transparent;
+    border: 0px 10px 0px 10px solid transparent; 
 }
 #link{
     font-size: 100%;
@@ -150,11 +144,10 @@ img {
 h4{
     width: 100%;
     font-size: 100%;
-    border-style: solid;
+    border: 2px solid;
     display: inline;
-    border-radius: 5px; 
-    border-width: 2px; 
     background-color: #c4ede3;
+    border-radius: 5px; 
     padding: 5px 5px 5px 5px;
 }
 .container{
@@ -166,10 +159,8 @@ h4{
 }
 p { 
     font-size: 100%;
-    border-width: 0px 10px 0px 10px;
     padding: 5px 5px 20px 5px;
-    border-style:solid; 
-    border-color: transparent;
+    border: 0px 10px 0px 10px solid transparent; 
 }
 #link{
     font-size: 100%;
@@ -213,9 +204,7 @@ img {
 
 /* Fixed elements */
 .bg_bords_text {
-    border-color: black; 
-    border-style: double; 
-    border-width: 7px; 
+    border: 7px double black; 
     text-align: center; 
     background-image: url("images/wallpaper.jpg");
     font-family:fantasy; 
