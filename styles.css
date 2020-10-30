@@ -72,6 +72,10 @@ img {
     margin: 5px 0px -10px 0px;
 }
 }
+
+
+
+
 /* Ţablets */
 @media screen and (min-width: 600px){
 h4{
@@ -137,6 +141,10 @@ img {
     margin: 5px 0px -10px 0px;
 }
 }
+
+
+
+
 /* PCs*/
 @media screen and (min-width: 1000px){
 h4{
@@ -199,6 +207,9 @@ img {
     margin: 5px 0px -10px 0px;
 }
 }
+
+
+
 
 /* Fixed elements */
 .bg_bords_text {
