@@ -1,2 +1,2 @@
 # joedmin580.github.io
-In this file is code for my own page
+My 1st hosted website, still in development. 
