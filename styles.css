@@ -1,225 +1,116 @@
-/* Mobiles */
-@media screen and (min-width: 320px){
-h1 {
+/* ˇMobile phones */
+@media screen and (max-width:600px){
+    body{
+        grid-template-columns: 1fr;
+    }
+    nav > ul {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav > ul > li, h3{
+        padding: 5px;
+        margin: 0px;
+        font-size: medium;
+    }
+    main{
+        height: 50%;
+    }
+    main > section{
+        grid-template-columns: 1fr;
+    }
+}
+/* Tablets and PCs*/
+@media screen and (min-width: 600px){
+    body{
+        grid-template-columns: 110px 1fr;
+    }
+    body > h1, footer{
+        grid-column: 1 / span 2;
+    }
+    nav > ul> h3, li{
+        padding-left: 5px;
+    }
+    main, nav{
+        height: 690px;
+        /* bottom: 20px; */
+    }
+    main > section{
+        grid-template-columns: 1fr 1fr;
+    }
+    main > section > .important_article{
+        grid-column: 1 / span 2;
+    }
+}
+
+
+
+
+
+/* Roots */
+body {
+    overflow: auto;
+    display: grid;
+    gap: 5px;    
+}
+body > h1 {
     text-align: center; 
-    font-size: 200% ;
-    width: auto;
-    height: auto;
-    padding:10px 0px 10px 0px;
-    margin: 0px 0px 0px 0px;
+    height: 35px;
     background-color: #3bc4a2; 
     color: white;
+    margin-bottom: 0;
+    padding: 5px;
 }
-h4{
-    width: 100%;
-    font-size: 100%;
-    border: 2px solid;
-    display: inline;
-    border-radius: 5px; 
-    background-color:#c4ede3;
-    padding: 5px 5px 5px 5px;
+main{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
 }
-.container{
-    display: inline;
-    padding: 10px 5px 10px 5px; 
-    margin: 10px 5px 10px 5px;
-}
-p { 
-    font-size: 100%;
-    padding: 5px 5px 20px 5px;
-    margin: 10px 10px 10px 10px;
-    border: 0px 10px 0px 10px solid transparent; 
-}
-#link{
-    font-size: 100%;
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 15px 0px;
-}
-#link_img {
-    width: 50%;
-    padding: 5px 0px 0px 0px; 
-    margin: 5px 0px 10px 0px;
-}
-#grid {
+main > section{
     display: grid;
-    width: 55%;
-    grid-area: auto;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5%;
-    padding: 20px 25% 0px 22%;
+    gap: 5px;
 }
-#label {
-    font-size: 85%;
-    padding: 0px 0px 10px 0px; 
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 15px 0px;
-}
-footer {
-    width: 100%;
-    text-align: center; 
-    font-size: 70%; 
-    padding:0px 0px 0px 0px; 
-    margin: 0px 0px -15px 0px;
-}
-img {
-    width: 15%;
-    padding: 5px 0px 0px 0px; 
-    margin: 5px 0px -10px 0px;
-}
-}
-
-
-
-
-/* Ţablets */
-@media screen and (min-width: 600px){
-h4{
-    width: 100%;
-    font-size: 100%;
-    border: 2px solid;
-    display: inline;
-    border-radius: 5px; 
-    background-color:#c4ede3;
-    padding: 5px 5px 5px 5px;
-}
-.container{
-    display: grid; 
-    grid-template-columns:  1fr 1fr;
-    text-align: center; 
-    padding: 10px 5px 10px 5px; 
-    margin: 10px 5px 10px 5px;
-}
-p { 
-    font-size: 100%;
-    padding: 5px 5px 20px 5px;
-    border: 0px 10px 0px 10px solid transparent; 
-}
-#link{
-    font-size: 100%;
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 15px 0px;
-}
-#link_img {
-    width: 50%;
-    padding: 5px 0px 0px 0px; 
-    margin: 5px 0px 10px 0px;
-}
-#grid {
-    display: grid;
-    width: 55%;
-    grid-area: auto;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10%;
-    padding: 20px 25% 0px 22%;
-}
-#label {
-    font-size: 85%;
-    padding: 0px 0px 10px 0px; 
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 15px 0px;
-}
-footer {
-    width: 100%;
-    text-align: center; 
-    font-size: 70%; 
-    padding:0px 0px 0px 0px; 
-    margin: 0px 0px -15px 0px;
-}
-img {
-    width: 25%;
-    padding: 5px 0px 0px 0px; 
-    margin: 5px 0px -10px 0px;
-}
-}
-
-
-
-
-/* PCs*/
-@media screen and (min-width: 1000px){
-h4{
-    width: 100%;
-    font-size: 100%;
-    border: 2px solid;
-    display: inline;
+main > section > article{
     background-color: #c4ede3;
-    border-radius: 5px; 
-    padding: 5px 5px 5px 5px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
-.container{
-    display: grid; 
-    grid-template-columns:  1fr 1fr;
-    text-align: center; 
-    padding: 10px 5px 10px 5px; 
-    margin: 10px 5px 10px 5px;
+main > section > .important_article{
+    background-color:#9de2d0;
 }
-p { 
-    font-size: 100%;
-    padding: 5px 5px 20px 5px;
-    border: 0px 10px 0px 10px solid transparent; 
+nav{
+    background-color:#9de2d0;
 }
-#link{
-    font-size: 100%;
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 15px 0px;
+nav > ul> h3{
+    display: inline;
+    margin: 0px;
 }
-#link_img {
-    width: 30%;
-    padding: 0px 0px 0px 0px; 
-    margin: 0px 0px 10px 0px;
+nav > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
-#label {
-    font-size: 85%;
-    padding: 0px 0px 10px 0px; 
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 15px 0px;
+body > footer{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color:#ebf9f6;
+    position: relative;
 }
-#grid {
-    display: grid;
-    width: 55%;
-    grid-area: auto;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5%;
-    padding: 20px 25% 0px 22%;
-}
-footer {
-    width: 100%;
-    text-align: center; 
-    font-size: 70%; 
-    padding:0px 0px 0px 0px; 
-    margin: 0px 0px -15px 0px;
-}
-img {
-    width: 15%;
-    padding: 5px 0px 0px 0px; 
-    margin: 5px 0px -10px 0px;
-}
-}
-
-
-
 
 /* Fixed elements */
 .bg_bords_text {
-    border: 7px double black; 
     text-align: center; 
-    background-image: url("images/wallpaper.jpg");
-    font-family:fantasy; 
-    font-weight:500; 
-    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif; 
+    font-weight:500;
+    overflow: hidden;
 }
-.line {
-    background-color: black;
-    padding: 3px 0px 0px 0px; 
-    margin: 0px 0px 10px 0px;
+#test{
+    background-color: red;
+    color: black;
 }
-
-div{
-    align-items: center;
+.image {
+    width: 100px;
 }
